@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <title>Benjamin Geiger - Web Designer & Developer aus Köln</title>
+  <head>
+    <title>Benjamin Geiger - Web Designer & Developer aus Köln</title>
 
-        <!--
+    <!--
 
             Hey there!
 
@@ -34,255 +34,174 @@
 
  
         -->
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta name="msapplication-TileImage" content="144.png" />
-        <meta name="msapplication-TileColor" content="#E0EBE8" />
+    <meta name="msapplication-TileImage" content="144.png" />
+    <meta name="msapplication-TileColor" content="#E0EBE8" />
 
-        <link rel="shortcut icon" href="favicon.ico" />
-        <link
-            rel="apple-touch-icon-precomposed"
-            sizes="144x144"
-            href="144.png"
-        />
-        <link
-            rel="apple-touch-icon-precomposed"
-            sizes="120x120"
-            href="120.png"
-        />
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="72.png" />
-        <link rel="apple-touch-icon-precomposed" href="57.png" />
-        <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="72.png" />
+    <link rel="apple-touch-icon-precomposed" href="57.png" />
+    <link rel="icon" type="image/png" href="favicon.png" />
 
-        <link
-            href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather:300,400,700&display=swap"
-            rel="stylesheet"
-        />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather:300,400,700&display=swap"
+      rel="stylesheet"
+    />
 
-        <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
-        <meta name="description" content="Portfolio von Benjamin Geiger" />
+    <meta name="description" content="Portfolio von Benjamin Geiger" />
+  </head>
 
-    </head>
+  <body>
+    <header class="header">
+      <input type="checkbox" class="header__checkbox" id="day-night-toggle" />
 
-    <body>
-        <header class="header">
-            <input
-                type="checkbox"
-                class="header__checkbox"
-                id="day-night-toggle"
+      <label for="day-night-toggle" class="header__lable">
+        <span class="header__day-night-button"></span>
+      </label>
+
+      <div class="header__background">
+        <div class="header__container--day">
+          <div class="navigation">
+            <div class="navigation__logo-box navigation__logo-box--day">
+              <a href="https://benni77.github.io/Personal/">
+                <img
+                  src="img/portrait.svg"
+                  alt="Benjamin Portrait"
+                  class="navigation__logo"
+                />
+              </a>
+            </div>
+
+            <nav class="navigation__text-box navigation__text-box--day">
+              <ul class="navigation__list">
+                <li class="navigation__item">
+                  <a
+                    href="https://benni77.github.io/Personal/"
+                    class="navigation__link"
+                    >Home</a
+                  >
+                </li>
+                <!--
+                                <li class="navigation__item">
+                                    <a href="#" class="navigation__link"
+                                        >Lebenslauf</a
+                                    >
+                                </li>
+                                -->
+              </ul>
+            </nav>
+          </div>
+
+          <img src="img/hand.svg" alt="" class="header__hand" />
+
+          <div class="header__heading">
+            <img
+              class="header__heading--primary-day"
+              src="img/benjamin_day.svg"
+              alt="Benjamin"
             />
 
-            <label for="day-night-toggle" class="header__lable">
-                <span class="header__day-night-button"></span>
-            </label>
+            <h1
+              class="header__heading--secondary header__heading--secondary-day"
+            >
+              web designer & developer
+            </h1>
+          </div>
 
-            <div class="header__background">
-                <div class="header__container--day">
-                    <div class="navigation">
-                        <div
-                            class="navigation__logo-box navigation__logo-box--day"
-                        >
-                            <a href="https://benni77.github.io/Personal/">
-                                <img
-                                    src="img/portrait.svg"
-                                    alt="Benjamin Portrait"
-                                    class="navigation__logo"
-                                />
-                            </a>
-                        </div>
+          <img
+            class="header__img header__img--day"
+            src="img/mountains_day_nobg.svg"
+            alt="Mountains Illustration"
+          />
 
-                        <nav
-                            class="navigation__text-box navigation__text-box--day"
-                        >
-                            <ul class="navigation__list">
-                                <li class="navigation__item">
-                                    <a href="https://benni77.github.io/Personal/" class="navigation__link"
-                                        >Home</a
-                                    >
-                                </li>
-                                <!--
-                                <li class="navigation__item">
-                                    <a href="#" class="navigation__link"
-                                        >Lebenslauf</a
-                                    >
-                                </li>
-                                -->
-                            </ul>
-                        </nav>
-                    </div>
+          <img
+            src="img/cloud_l.svg"
+            alt=""
+            class="header__cloud header__cloud--left"
+          />
 
-                    <img src="img/hand.svg" alt="" class="header__hand" />
+          <!-- <img src="img/plane.svg" alt="" class="header__plane" /> -->
 
-                    <div class="header__heading">
-                        <img
-                            class="header__heading--primary-day"
-                            src="img/benjamin_day.svg"
-                            alt="Benjamin"
-                        />
+          <img
+            src="img/cloud_r.svg"
+            alt=""
+            class="header__cloud header__cloud--right"
+          />
 
-                        <h1
-                            class="header__heading--secondary header__heading--secondary-day"
-                        >
-                            web designer & developer
-                        </h1>
-                    </div>
+          <img
+            src="img/cloud_r.svg"
+            alt=""
+            class="header__cloud header__cloud--right_outside"
+          />
 
-                    <img
-                        class="header__img header__img--day"
-                        src="img/mountains_day_nobg.svg"
-                        alt="Mountains Illustration"
-                    />
+          <img
+            src="img/cloud_l.svg"
+            alt=""
+            class="header__cloud header__cloud--left_outside"
+          />
 
-                    <img
-                        src="img/cloud_l.svg"
-                        alt=""
-                        class="header__cloud header__cloud--left"
-                    />
+          <!--<img class="header__flag" src="img/flag.svg" alt="" />-->
+        </div>
 
-                    <img
-                        src="img/plane.svg"
-                        alt=""
-                        class="header__plane"
-                    />
-
-                    <img
-                        src="img/cloud_r.svg"
-                        alt=""
-                        class="header__cloud header__cloud--right"
-                    />
-
-                    <img
-                        src="img/cloud_r.svg"
-                        alt=""
-                        class="header__cloud header__cloud--right_outside"
-                    />
-
-                    <img
-                        src="img/cloud_l.svg"
-                        alt=""
-                        class="header__cloud header__cloud--left_outside"
-                    />
-
-                    <!--<img class="header__flag" src="img/flag.svg" alt="" />-->
-                </div>
-
-                <div class="header__container--night">
-                    <div class="navigation">
-                        <div
-                            class="navigation__logo-box navigation__logo-box--night"
-                        >
-                            <a href="#">
-                                <img
-                                    src="img/portrait.svg"
-                                    alt="Benjamin Portrait"
-                                    class="navigation__logo"
-                                />
-                            </a>
-                        </div>
-
-                        <nav
-                            class="navigation__text-box navigation__text-box--night"
-                        >
-                            <ul class="navigation__list">
-                                <li class="navigation__item">
-                                    <a href="#" class="navigation__link"
-                                        >Home</a
-                                    >
-                                </li>
-                                <!--
-                                <li class="navigation__item">
-                                    <a href="#" class="navigation__link"
-                                        >Lebenslauf</a
-                                    >
-                                </li>
-                                -->
-                            </ul>
-                        </nav>
-                    </div>
-
-                    <div class="header__heading">
-                        <img
-                            class="header__heading--primary-night"
-                            src="img/benjamin_night.svg"
-                            alt="Benjamin"
-                        />
-
-                        <h1
-                            class="header__heading--secondary header__heading--secondary-night"
-                        >
-                            web designer & developer
-                        </h1>
-                    </div>
-
-                    <img
-                        class="header__img header__img--night"
-                        src="img/mountains_night_nobg.svg"
-                        alt="Mountains Illustration"
-                    />
-                </div>
-            </div>
-        </header>
-
-        <!--
-        <main>
-            <section class="me u-center-text">
+        <div class="header__container--night">
+          <div class="navigation">
+            <div class="navigation__logo-box navigation__logo-box--night">
+              <a href="#">
                 <img
-                    class="me__img u-margin-bottom-small"
-                    src="img/portrait_blue_bg.svg"
-                    alt="Portrait"
+                  src="img/portrait.svg"
+                  alt="Benjamin Portrait"
+                  class="navigation__logo"
                 />
+              </a>
+            </div>
 
-                <h2 class="me__heading heading-secondary u-margin-bottom-small">
-                    Hey.
-                </h2>
+            <nav class="navigation__text-box navigation__text-box--night">
+              <ul class="navigation__list">
+                <li class="navigation__item">
+                  <a href="#" class="navigation__link">Home</a>
+                </li>
+                <!--
+                                <li class="navigation__item">
+                                    <a href="#" class="navigation__link"
+                                        >Lebenslauf</a
+                                    >
+                                </li>
+                                -->
+              </ul>
+            </nav>
+          </div>
 
-                <p class="me__text typo_serif_font u-margin-bottom-big">
-                    Ich bin Webdesigner und -developer aus dem Herzen Kölns. Die
-                    Begeisterung für Webentwicklung und die Liebe fürs Detail
-                    zeichnen mich aus.
-                </p>
+          <div class="header__heading">
+            <img
+              class="header__heading--primary-night"
+              src="img/benjamin_night.svg"
+              alt="Benjamin"
+            />
 
-                <div class="break">
-                    <hr class="break--dots u-margin-bottom-big" />
-                </div>
-            </section>
+            <h1
+              class="header__heading--secondary header__heading--secondary-night"
+            >
+              web designer & developer
+            </h1>
+          </div>
 
-            <section class="what-i-can u-center-text">
-                <h2
-                    class="what-i-can__heading--primary heading-primary u-margin-bottom-medium"
-                >
-                    Was ich kann.
-                </h2>
-
-                <div class="row">
-                    <div class="col-2-of-6">
-                        <img
-                            class="what-i-can__meimg u-margin-bottom-small"
-                            src="img/portrait_blue_bg.svg"
-                            alt="Portrait"
-                        />
-                    </div>
-
-                    <div class="col-4-of-6">
-                        <h2 class="what-i-can__heading--secondary heading-secondary">
-                            Design what you want.
-                        </h2>
-
-                        <p class="what-i-can__text typo_serif_font">
-                            I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="break">
-                    <hr class="break--dots u-margin-bottom-big" />
-                </div>
-            </section>
-        </main>
-        -->
-        <script>/**/</script>
-    </body>
+          <img
+            class="header__img header__img--night"
+            src="img/mountains_night_nobg.svg"
+            alt="Mountains Illustration"
+          />
+        </div>
+      </div>
+    </header>
+    <script>
+      /**/
+    </script>
+  </body>
 </html>
